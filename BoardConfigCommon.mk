@@ -94,6 +94,8 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CONFIG := \
     vendor/sm8150-perf_defconfig \
     vendor/oplus.config
+# KernelSU-Next and SuSFS kernel configuration
+TARGET_KERNEL_CONFIG += ksun_sus.config
 TARGET_KERNEL_SOURCE := kernel/oneplus/sm8150
 
 # Kernel modules - WLAN
